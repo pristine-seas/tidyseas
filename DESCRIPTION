@@ -1,0 +1,20 @@
+Package: tidyseas
+Title: Tidy Tools for Pristine Seas Expedition Science
+Version: 0.0.0.9000
+Authors@R: 
+    person("Juan", "Mayorga", email = "marine.data.science@ngs.org", role = c("aut", "cre"))
+Description: Tools for the National Geographic Pristine Seas research team
+    and its partners to carry expedition data from field sheets to the shared
+    database to the report, the same way every time.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+URL: https://github.com/pristine-seas/tidyseas,
+    https://pristine-seas.github.io/tidyseas/
+BugReports: https://github.com/pristine-seas/tidyseas/issues
+Depends: 
+    R (>= 4.1.0)
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

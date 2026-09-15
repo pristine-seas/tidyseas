@@ -1,0 +1,23 @@
+# R session and RStudio state
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Secrets and auth tokens: Mapbox, BigQuery, Google Drive, Earth Engine
+.Renviron
+.httr-oauth
+.secrets/
+
+# Build and check output
+*.Rcheck/
+*.tar.gz
+/docs/
+inst/doc/
+/pkgdown/favicon/
+
+# Editor and OS
+.DS_Store
+Thumbs.db
+.vscode/
+.claude/
