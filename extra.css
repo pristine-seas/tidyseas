@@ -1,0 +1,21 @@
+/* The Pristine Seas shield sits in the README title. pkgdown's stylesheet
+   forces images to height: auto, which would let it fill the column, so pin
+   it to the height of the title block and float it right. */
+.page-header h1 img {
+  width: auto;
+  height: 90px;
+  float: right;
+  margin-top: 2px;
+}
+
+/* Lead line under the page title: the header rule moves below the subtitle
+   so the title, shield and subtitle read as one block. */
+.template-home .page-header { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; min-height: 0; }
+.template-home .page-header h1 { margin-bottom: 0; }
+.template-home p.subtitle {
+  font-size: 1.25rem;
+  color: var(--bs-secondary-color, #6c757d);
+  margin: 0.25rem 0 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--bs-border-color, #dee2e6);
+}
