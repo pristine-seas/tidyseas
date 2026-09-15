@@ -2,3 +2,8 @@ url: https://pristine-seas.github.io/tidyseas/
 
 template:
   bootstrap: 5
+  bslib:
+    # Digital paper: the page background. fg is Bootstrap's default body ink;
+    # bslib requires the pair to be set together.
+    bg: "#FEFDFB"
+    fg: "#212529"

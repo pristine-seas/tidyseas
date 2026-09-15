@@ -1,4 +1,4 @@
-# tidyseas <img src="man/figures/PS_shield.svg" align="right" height="110" alt="Pristine Seas" />
+# tidyseas <img src="man/figures/PS_shield.svg" align="right" height="90" alt="Pristine Seas" />
 
 <p class="subtitle">Tidy tools for Pristine Seas expedition science</p>
 

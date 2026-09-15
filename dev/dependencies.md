@@ -27,3 +27,8 @@ be declared in Imports.
 Pristine Seas marks. The shield carries the brand colours `#2074A4`, `#003764`
 and `#AAE4D8`. They serve the README and pkgdown only; a function that needs a
 logo should ship a copy under `inst/logos/`.
+
+## Colour
+
+Digital paper, the background of the pkgdown site and the starting point for
+the colour system: `#FEFDFB`.
